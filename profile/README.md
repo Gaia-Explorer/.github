@@ -91,32 +91,32 @@ Once approved and CI passes, the reviewer (or the author — but not both) merge
 
 #### Task 1.1: Gaia data reading and analysis
 **Target: MS2** — full execution of data analysis and reading is required for this milestone.
-- [ ] Study the Gaia catalog schema (tables, columns, data types, data releases)
-- [ ] Analyze total data volume and storage
-- [ ] Analyze spatial distribution, data structures and variability characteristics within the dataset.
-- [ ] Identify relevant data subsets/attributes needed for visualization
-- [ ] Investigate consistency across different Gaia data releases
-- [ ] Define a strategy for handling missing, corrupted, or uncertain data
-- [ ] Establish efficient access patterns for real-time visualization use
-- [ ] Write report **D1.1**: Gaia data attributes, availability, volume, consistency, distribution
+- [x] Study the Gaia catalog schema (tables, columns, data types, data releases)
+- [x] Analyze total data volume and storage
+- [x] Analyze spatial distribution, data structures and variability characteristics within the dataset.
+- [x] Identify relevant data subsets/attributes needed for visualization
+- [x] Investigate consistency across different Gaia data releases
+- [x] Define a strategy for handling missing, corrupted, or uncertain data
+- [x] Establish efficient access patterns for real-time visualization use
+- [x] Write report **D1.1**: Gaia data attributes, availability, volume, consistency, distribution
 
 ### Task 1.2: Encoding and compression
 **Target: MS2** — groundwork/foundation expected by this milestone (full pipeline integration continues afterward).
 
-- [ ] Research existing encoding/compression techniques for large-scale data
-- [ ] Shortlist candidate formats
-- [ ] Prototype and benchmark compression ratio
-- [ ] Benchmark decompression speed to confirm it stays lightweight for real-time use
-- [ ] Select final encoding/compression scheme
+- [x] Research existing encoding/compression techniques for large-scale data
+- [x] Shortlist candidate formats
+- [x] Prototype and benchmark compression ratio
+- [x] Benchmark decompression speed to confirm it stays lightweight for real-time use
+- [x] Select final encoding/compression scheme
 - [ ] Integrate encoding step into the data preprocessing pipeline
 
 ### Task 1.3: Hierarchical level-of-detail representation
 **Target: begins at MS2, finished until MS3**.
 
-- [ ] Research hierarchical/spatial indexing structures (octree, HEALPix, k-d tree, etc.)
-- [ ] Design a hierarchy suited to Gaia
-- [ ] Implement the algorithm that builds the hierarchy from processed data
-- [ ] Implement dynamic loading of data subsets based on current view
+- [x] Research hierarchical/spatial indexing structures (octree, HEALPix, k-d tree, etc.)
+- [x] Design a hierarchy suited to Gaia
+- [x] Implement the algorithm that builds the hierarchy from processed data
+- [x] Implement dynamic loading of data subsets based on current view
 - [ ] Optimize the hierarchy for retrieval speed and memory footprint
 - [ ] Finalize and document the full pipeline
 
@@ -128,18 +128,18 @@ Once approved and CI passes, the reviewer (or the author — but not both) merge
 **Target: MS3** — backend (WP2) finalized, incl. deliverable **D2.2**.
 
 - [x] Choose hosting/infrastructure
-- [ ] Set up server environment and required dependencies
+- [x] Set up server environment and required dependencies
 - [x] Configure storage/database for preprocessed Gaia data
-- [ ] Configure server for scalability (load balancing / horizontal scaling)
+- [x] Configure server for scalability (load balancing / horizontal scaling)
 - [ ] Stress-test the server under varying load conditions
 - [ ] Document server stack and configuration
 
 ### Task 2.2: Data access and streaming
 **Target: MS3** — backend (WP2) finalized, incl. deliverable **D2.3**.
 
-- [ ] Design API endpoints for data access
-- [ ] Implement caching of data used for visualization
-- [ ] Implement caching of data used for analysis
+- [x] Design API endpoints for data access
+- [x] Implement caching of data used for visualization
+- [x] Implement caching of data used for analysis
 - [ ] Implement range-based queries leveraging the hierarchical LOD structure
 - [ ] Implement incremental/streaming data loading
 - [ ] Optimize API for high-performance querying
