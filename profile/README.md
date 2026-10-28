@@ -81,7 +81,7 @@ Once approved and CI passes, the reviewer (or the author — but not both) merge
 
 **Milestones reference**
 - **MS1 – Kickoff** (M0 - March 2026)
-- **MS2 – Data preprocessing pipeline established** (M7 - September 2028)
+- **MS2 – Data preprocessing pipeline established** (M7 - September 2026)
 - **MS3 – Base functionalities developed and deployed** (M18 - August 2027)
 - **MS4 – Application fully developed and deployed** (M24 - Februar 2028)
 
