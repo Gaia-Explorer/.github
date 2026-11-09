@@ -154,16 +154,16 @@ Once approved and CI passes, the reviewer (or the author — but not both) merge
 ### Task 3.1: Technology review
 **Target: MS2** — should be completed by this milestone, independent of WP2 progress.
 
-- [ ] Review existing web technologies and frameworks (WebGPU, WebGPU 2.0)
-- [ ] Evaluate libraries: Three.js, Babylon.js, and alternatives
-- [ ] Assess fallback strategies for devices without WebGPU support
-- [ ] Compare performance/feature trade-offs across options
-- [ ] Select final technology stack
+- [x] Review existing web technologies and frameworks (WebGPU, WebGPU 2.0)
+- [x] Evaluate libraries: Three.js, Babylon.js, and alternatives
+- [x] Assess fallback strategies for devices without WebGPU support
+- [x] Compare performance/feature trade-offs across options
+- [x] Select final technology stack
 
 ### Task 3.2: Developing the rendering engine
 **Target: fully functional by MS3**.
 
-- [ ] Set up the rendering engine project using the selected stack
+- [x] Set up the rendering engine project using the selected stack
 - [ ] Integrate data loading with the backend API
 - [ ] Asses and Implement high-performance rendering techniques, which will support millions of data points (such as instancing, multiple levels of detail, and hardware
 occlusion culling)
